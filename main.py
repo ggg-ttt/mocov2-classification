@@ -14,3 +14,4 @@ with open('D:\\pythonProject\\moco-main\\BIRD\\birds.csv', newline='') as csvfil
 
 print(img_ids[0:5])
 print(labels[0:5])
+#123
