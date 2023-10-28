@@ -1,0 +1,22 @@
+{
+  "arch": "resnet34",
+  "lr": 0.03,
+  "epochs": 200,
+  "schedule": [
+    120,
+    160
+  ],
+  "cos": false,
+  "batch_size": 256,
+  "wd": 0.0005,
+  "moco_dim": 128,
+  "moco_k": 4096,
+  "moco_m": 0.99,
+  "moco_t": 0.1,
+  "bn_splits": 8,
+  "symmetric": false,
+  "gpu": 1,
+  "resume": "/home/caixiao/gty/resnet/ckpt_resnet34_0100.pth.tar",
+  "results_dir": "/home/caixiao/gty/log/resnet34",
+  "print_freq": 10
+}

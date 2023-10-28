@@ -1,0 +1,22 @@
+{
+  "arch": "resnet18",
+  "lr": 0.03,
+  "epochs": 300,
+  "schedule": [
+    60,
+    80
+  ],
+  "cos": false,
+  "batch_size": 512,
+  "wd": 0.0005,
+  "moco_dim": 128,
+  "moco_k": 4096,
+  "moco_m": 0.99,
+  "moco_t": 0.1,
+  "bn_splits": 8,
+  "symmetric": false,
+  "gpu": 0,
+  "resume": "/home/caixiao/gty/ckpt_resnet18_0100.pth.tar",
+  "results_dir": "log/resnet18",
+  "print_freq": 10
+}
